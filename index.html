@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to My First Web Page</title>
+    <meta name="description" content="Discover the story of Magaiwa Mohoria — a passionate learner, tech enthusiast, and future system engineer, all structured in a clean and accessible HTML5 format.">
+</head>
+<body>
+
+    <!-- Header -->
+    <header role="banner">
+        <h1>Welcome to My First Web Page</h1>
+        <p>Aspiring System Engineer | Tech Explorer | Lifelong Learner</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main Navigation">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#register">Join My Network</a></li>
+            <li><a href="#bio">My Bio</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <main role="main">
+
+        <!-- About Section -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">Who Am I?</h2>
+            <article>
+                <p>Hello there! My name is <strong>Magaiwa Mohoria</strong>, a curious mind from Kenya passionate about all things tech. I'm currently studying Business Information Technology and working hard toward becoming a system engineer. When I'm not coding or studying, I'm diving into the world of 3D design, learning Python, or exploring the deep questions of human existence.</p>
+
+                <figure>
+                    <img src="IMG_4929.JPG" alt="3D rendered image by Magaiwa" width="300" height="200">
+                    
+                </figure>
+            </article>
+        </section>
+
+        <!-- Registration Form -->
+        <section id="register" aria-labelledby="register-heading">
+            <h2 id="register-heading">Join My Learning Network</h2>
+            <p>If you're passionate about technology, learning, or you're simply curious, feel free to connect with me using the form below:</p>
+            <form aria-label="Connect Form">
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Your Message:</label><br />
+                <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+   <!-- Biographical Table -->
+<section id="bio" aria-labelledby="bio-heading">
+    <h2 id="bio-heading">Quick Facts About Me</h2>
+    <table border="1">
+        <caption>Magaiwa's Personal & Educational Background</caption>
+        <thead>
+            <tr>
+                <th scope="col">Attribute</th>
+                <th scope="col">Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Full Name</td>
+                <td>Mohoria Magaiwa</td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>Kenya</td>
+            </tr>
+            <tr>
+                <td>Tribe</td>
+                <td>Kuria</td>
+            </tr>
+            <tr>
+                <td>Education</td>
+                <td>Bachelor of Business Information Technology</td>
+            </tr>
+            <tr>
+                <td>University</td>
+                <td>Mount Kenya University</td>
+            </tr>
+            <tr>
+                <td>Expected Graduation</td>
+                <td>December 2026</td>
+            </tr>
+            <tr>
+                <td>Career Goal</td>
+                <td>To become a skilled System Engineer and Data Analyst</td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td>3D Product Design, Python Projects, Exploring Ancient History</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><a href="mailto:magaiwamohoria@gmail.com">magaiwamohoria@gmail.com</a></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+                </tbody>
+            </table>
+        </section>
+
+        <!-- External Resource -->
+        <article aria-labelledby="learn-heading">
+            <h2 id="learn-heading">Want to Learn Like I Do?</h2>
+            <p>Check out <a href="https://academy.powerlearnprojectafrica.org/" target="_blank" rel="noopener">Power Learn Project</a> — a great platform that helped spark my tech journey.</p>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo" id="footer">
+        <p>Contact me at <a href="mailto:magaiwamohoria@gmail.com">magaiwamohoria@gmail.com</a> | © 2025 Magaiwa Mohoria. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
